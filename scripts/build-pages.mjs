@@ -31,7 +31,7 @@ const REPO_NAME = process.env.GITHUB_REPOSITORY || UPSTREAM; // a fork builds it
 const IS_FORK = REPO_NAME.toLowerCase() !== UPSTREAM.toLowerCase();
 const SHARED_SITE = 'https://realtimeurbanismlab.github.io/weather-commons/';
 const COMMUNITY = 'https://community.ocean-archive.org/spaces/25478985';
-const SITE_PAGES = ['guide', 'catalog', 'resources']; // root folders published as they are
+const SITE_PAGES = ['guide', 'catalog', 'resources', 'under-reflection']; // root folders published as they are
 const SKIP = new Set(['assets', 'tools', 'node_modules', 'dist', '.vite', '.wrangler']);
 
 function run(cmd, cmdArgs, cwd, env = {}) {
